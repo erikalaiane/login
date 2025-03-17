@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>Login</title>
-    <link rel="icon" href="data:,">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -25,34 +25,32 @@
 
             <div>
              <h1 class="text-center text-2xl font-bold mb-3">Login</h1>
-             <p class="p-5" >Não é um membro? 
-                <a class="text-emerald-700 hover:text-rose-600" href="#">Cadastre-se</a>
-            </p>
+             
              </div>
+
+             <div class="mt-2 mb-3 flex gap-4 w-full">
+                <button class="flex-1 bg-blue-900 hover:bg-blue-950 py-2 px-5 rounded-md text-white">Facebook</button>
+                <button class="flex-1 bg-red-800 hover:bg-red-950 py-2 px-5 rounded-md text-white">Google</button>
+            </div>
+
+            <p class="text-black">Ou use o email</p>
 
              <form action="#" method="POST">
                 <div class="p-2">
-                    <input type="email" placeholder="Email" class="w-full p-3 mb-3 bg-transparent text-white rounded-lg border border-white/30 placeholder-white focus:outline-none">
+                    <input type="email" placeholder="Email" class="w-full p-3 mb-3 bg-transparent text-black rounded-lg border border-white/30 placeholder-white focus:outline-none">
 
-                    <input type="password" placeholder="Password" class="w-full p-3 mb-3 bg-transparent text-white rounded-lg border border-white/30 placeholder-white focus:outline-none" autocomplete="current-password">
+                    <input type="password" placeholder="Senha" class="w-full p-3 mb-3 bg-transparent text-white rounded-lg border border-white/30 placeholder-white focus:outline-none" autocomplete="current-password">
                 </div>
 
-                <button class=" cursor-pointer w-full bg-cyan-800 text-white py-3 px-25 rounded-lg font-bold hover:bg-cyan-950 transition">Sign Up</button>
+                <button class=" cursor-pointer w-full bg-cyan-800 text-white py-3 rounded-lg font-bold hover:bg-cyan-950 transition">Entrar</button>
              </form>
 
-            <div class="flex justify-center mt-4 space-x-4">
-                <a href="#">
-                    <ion-icon class="text-white hover:text-cyan-800 size-8" name="logo-facebook"></ion-icon>
-                </a>
-                <a href="#">
-                    <ion-icon class="text-white hover:text-red-700 size-8" name="logo-google"></ion-icon>
-                </a>    
-            </div>
+             <p class="p-5 " >Não é um membro? 
+                <a class="text-cyan-900 hover:text-rose-600" href="#">Cadastre-se</a>
+            </p>
+
           </div>        
     </section>
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 
 </body>
 </html>
